@@ -23,6 +23,7 @@ body{
     padding:0; */
     line-height:1.5;
     font-size:16px;
+    /* height: 100%; */
     font-family:'Poppins' sans-serif;
 
 }
@@ -375,6 +376,9 @@ h3.my-profession{
     height: 400px;
 }
 
+
+
+
 /* About */
 .about .about-content{
 flex:0 0 100%;
@@ -686,6 +690,9 @@ transition: all 0.3s ease;
     height: 200px;
     display:inline-block;
 }
+.portfolio-img1{
+    background-image: ('https://github.com/komaljot/Calculator')
+}
 
 /* contact */
 .contact-title{
@@ -741,6 +748,7 @@ transition: all 0.3s ease;
     color:var(--text-black-700);
     font-weight: 400;
 }
+
 .contact .contact-form{
     flex: 0 0 100%;
     max-width: 100%;
@@ -754,7 +762,7 @@ transition: all 0.3s ease;
 .contact .contact-form .col-12{
     flex:0 0 100%;
     max-width:100%;
-    /* background:red; */
+   
 
 }
 
@@ -776,10 +784,12 @@ transition: all 0.3s ease;
 
 }
 
+
 .contact .contact-form .form-item .form-control:focus{
     box-shadow:0 0 20px rgba(48,46,77,0.15);
 
 }
+
 .contact .contact-form .form-item  textarea.form-control{
     height:130px;
 
@@ -790,6 +800,107 @@ transition: all 0.3s ease;
     padding:0 50px;
 
 }
+/* .main-form{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background:black;
+}
+.contact-container{
+    max-width:960px;
+    margin:auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+    background: #363953;
+    box-shadow:0 0 1rem hsla(0 0 0 / 16%);
+    border-radius:0.5rem;
+    overflow:hidden;
+
+
+}
+.form-container{
+    padding: 20px;
+}
+.form-container h3{
+    font-size:1.2rem;
+    font-weight: 600;
+    margin-bottom:1rem;
+
+}
+
+.contact-form{
+    display:grid;
+    row-gap: 1rem;
+
+}
+
+.contact-form input{
+
+} */
+
+
+.line {
+    border-bottom: 2.7px solid var(--skin-color);
+    margin-top: 5px;
+    width: 100%;
+}
+.form-container{
+    width:100%;
+    height:100vh;
+    /* background: blue; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    background: var(--bg-black-900);
+    display:flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:100%;
+    /* max-width: 600px; */
+    border-radius: 10px;
+
+}
+form h3{
+    color:var(--skin-color);
+    font-weight:800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input, form textarea{
+    border:0;
+    margin:10px 0;
+   
+    padding: 20px;
+    outline:none;
+    border-radius: 9px;
+    background:var(--bg-black-100);
+    font-size: 16px;
+
+}
+form button{
+    padding: 15px;
+    background:var(--skin-color);
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor:pointer;
+    width: 150px;
+    margin:20px auto 0;
+    border-radius: 30px;
+
+}
+
 @media (max-width:1199px){
     .section.container{
         padding-top: 70px;
@@ -821,6 +932,7 @@ transition: all 0.3s ease;
         margin-left:0;
     }
 }
+
 
 @media (max-width:991px){
     .contact .contact-info-item,
