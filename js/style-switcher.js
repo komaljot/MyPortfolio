@@ -21,14 +21,14 @@ window.addEventListener("wheel",()=>{
 //       styleSwitcher.classList.remove("open");
 //     }
 //   });
-document.addEventListener("scroll", () => {
-    console.log("removed?");
-    const styleSwitcher = document.querySelector(".style-switcher");
-    console.log("removed?")
-    if (styleSwitcher && styleSwitcher.classList.contains("open")) {
-      styleSwitcher.classList.remove("open");
-    }
-  });
+// document.addEventListener("scroll", () => {
+//     console.log("removed?");
+//     const styleSwitcher = document.querySelector(".style-switcher");
+//     console.log("removed?")
+//     if (styleSwitcher && styleSwitcher.classList.contains("open")) {
+//       styleSwitcher.classList.remove("open");
+//     }
+//   });
 
 /*================================== theme colors ===================================*/
 const alternateStyles=document.querySelectorAll(".alternate-style");
